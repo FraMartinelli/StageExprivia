@@ -9,7 +9,7 @@ public class CalcoloDistanzaMassima {
         double fattoreCaricoPasseggeri = 1 + (passeggeri * 0.05);
 
         // Fattore di correzione per l'aria condizionata
-        double fattoreAria = aria ? 0.9 : 1.0;
+        double fattoreAria = aria ? 1.1 : 1.0;
 
         // Calcolo della distanza massima
         double distanzaMassima = (carburante / (usoCarburante * fattoreCaricoPasseggeri * fattoreAria)) * 100;

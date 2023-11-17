@@ -16,16 +16,17 @@ public class Main extends CalcoloDistanzaMassima{
 		double carburante;
 		int passeggeri;
 		boolean aria;
-		double usoCarburante = 5;
+		double usoCarburante;
 		 do {
 	            // Chiedere all'utente di inserire il carburante
 	            System.out.print("Inserisci la quantità di carburante (in litri): ");
 	            carburante = scanner.nextDouble();
-
+	            //Uso del carburante
+	            System.out.print("Inserisci l'uso del carburante (litri/100km): ");
+	            usoCarburante = scanner.nextDouble();
 	            // Chiedere all'utente di inserire il numero di passeggeri
 	            System.out.print("Inserisci il numero di passeggeri: ");
 	            passeggeri = scanner.nextInt();
-
 	            // Chiedere all'utente se l'aria condizionata è accesa
 	            System.out.print("L'aria condizionata è accesa? (true/false): ");
 	            aria = scanner.nextBoolean();
@@ -38,7 +39,7 @@ public class Main extends CalcoloDistanzaMassima{
 	        double distanzaMassima = calcolaDistanzaMassima(carburante, usoCarburante, passeggeri, aria);
 
 	        // Stampare il risultato
-	        System.out.println("Distanza massima: " + distanzaMassima + " km");
+	        System.out.println("Distanza massima(" + carburante + ", " + usoCarburante + ", " + passeggeri + ", " + aria + "): " + distanzaMassima + " km");
 	};
 
 }
