@@ -1,0 +1,61 @@
+-- Italy
+INSERT INTO aereoporto VALUES (1, 'Leonardo da Vinci-Fiumicino Airport', 'Rome', '4', 'Italy');
+INSERT INTO aereoporto VALUES (2, 'Malpensa Airport', 'Milan', '2', 'Italy');
+INSERT INTO aereoporto VALUES (3, 'Marco Polo Airport', 'Venice', '3', 'Italy');
+
+-- United States
+INSERT INTO aereoporto VALUES (4, 'Hartsfield-Jackson Atlanta International Airport', 'Atlanta', '5', 'United States');
+INSERT INTO aereoporto VALUES (5, 'Los Angeles International Airport', 'Los Angeles', '4', 'United States');
+INSERT INTO aereoporto VALUES (6, 'John F. Kennedy International Airport', 'New York', '6', 'United States');
+
+-- Japan
+INSERT INTO aereoporto VALUES (7, 'Narita International Airport', 'Tokyo', '3', 'Japan');
+INSERT INTO aereoporto VALUES (8, 'Kansai International Airport', 'Osaka', '2', 'Japan');
+INSERT INTO aereoporto VALUES (9, 'Chubu Centrair International Airport', 'Nagoya', '2', 'Japan');
+-- United Kingdom
+INSERT INTO aereoporto VALUES (10, 'Heathrow Airport', 'London', '2', 'United Kingdom');
+INSERT INTO aereoporto VALUES (11, 'Gatwick Airport', 'London', '2', 'United Kingdom');
+INSERT INTO aereoporto VALUES (12, 'Manchester Airport', 'Manchester', '3', 'United Kingdom');
+
+-- France
+INSERT INTO aereoporto VALUES (13, 'Charles de Gaulle Airport', 'Paris', '4', 'France');
+INSERT INTO aereoporto VALUES (14, 'Orly Airport', 'Paris', '3', 'France');
+INSERT INTO aereoporto VALUES (15, 'Nice Côte Azur Airport', 'Nice', '2', 'France');
+
+-- Germany
+INSERT INTO aereoporto VALUES (16, 'Frankfurt Airport', 'Frankfurt', '4', 'Germany');
+INSERT INTO aereoporto VALUES (17, 'Munich Airport', 'Munich', '3', 'Germany');
+INSERT INTO aereoporto VALUES (18, 'Berlin Brandenburg Airport', 'Berlin', '2', 'Germany');
+
+-- China
+INSERT INTO aereoporto VALUES (19, 'Beijing Capital International Airport', 'Beijing', '3', 'China');
+INSERT INTO aereoporto VALUES (20, 'Shanghai Pudong International Airport', 'Shanghai', '4', 'China');
+INSERT INTO aereoporto VALUES (21, 'Guangzhou Baiyun International Airport', 'Guangzhou', '3', 'China');
+-- Spain
+INSERT INTO aereoporto VALUES (22, 'Adolfo Suárez Madrid-Barajas Airport', 'Madrid', '4', 'Spain');
+INSERT INTO aereoporto VALUES (23, 'Barcelona-El Prat Airport', 'Barcelona', '3', 'Spain');
+INSERT INTO aereoporto VALUES (24, 'Palma de Mallorca Airport', 'Palma', '2', 'Spain');
+
+-- Canada
+INSERT INTO aereoporto VALUES (25, 'Toronto Pearson International Airport', 'Toronto', '5', 'Canada');
+INSERT INTO aereoporto VALUES (26, 'Vancouver International Airport', 'Vancouver', '4', 'Canada');
+INSERT INTO aereoporto VALUES (27, 'Montreal-Pierre Elliott Trudeau International Airport', 'Montreal', '3', 'Canada');
+
+-- Australia
+INSERT INTO aereoporto VALUES (28, 'Sydney Kingsford Smith Airport', 'Sydney', '3', 'Australia');
+INSERT INTO aereoporto VALUES (29, 'Melbourne Airport', 'Melbourne', '2', 'Australia');
+INSERT INTO aereoporto VALUES (30, 'Brisbane Airport', 'Brisbane', '2', 'Australia');
+
+-- India
+INSERT INTO aereoporto VALUES (31, 'Indira Gandhi International Airport', 'Delhi', '3', 'India');
+INSERT INTO aereoporto VALUES (32, 'Chhatrapati Shivaji Maharaj International Airport', 'Mumbai', '2', 'India');
+INSERT INTO aereoporto VALUES (33, 'Kempegowda International Airport', 'Bangalore', '2', 'India');
+
+-- Brazil
+INSERT INTO aereoporto VALUES (34, 'Guarulhos–Governador AndréFrancoMontoro Airport', 'São Paulo', '2', 'Brazil');
+INSERT INTO aereoporto VALUES (35, 'Galeão International Airport', 'Rio de Janeiro', '3', 'Brazil');
+INSERT INTO aereoporto VALUES (36, 'Brasília International Airport', 'Brasília', '2', 'Brazil');
+--Bulgaria
+INSERT INTO aereoporto (id_aereoporto, nome_aereoporto, città, piste, stato_città) VALUES (37, 'Sofia Airport', 'Sofia', '5', 'Bulgaria');
+INSERT INTO aereoporto VALUES (38, 'Varna Airport', 'Varna', NULL, 'Bulgaria'); 
+INSERT INTO aereoporto VALUES (39, 'Burgas Airport', 'Burgas', '3', 'Bulgaria'); 

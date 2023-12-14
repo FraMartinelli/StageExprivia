@@ -1,0 +1,79 @@
+create or replace TRIGGER AggiornaStatisticheTrigger
+AFTER INSERT ON prenotazione
+FOR EACH ROW
+DECLARE
+    v_eta_media INT;
+BEGIN
+    -- Calcola l'età media dei passeggeri nella prenotazione
+    SELECT AVG(cliente.età)
+    INTO v_eta_media
+    FROM cliente
+    WHERE id_cliente = :NEW.id_cliente;
+
+    -- Inserisci o aggiorna le statistiche
+    MERGE INTO statistiche s
+    USING (SELECT
+               :NEW.id_prenotazione AS id_prenotazione,
+               :NEW.id_volo AS id_volo,
+               COUNT(*) AS num_prenotazioni,
+               ROUND(AVG(cliente.età)) AS eta_media_passeggieri,
+               COUNT(CASE WHEN cliente.età >= 18 THEN 1 END) AS num_adulti,
+               COUNT(CASE WHEN cliente.età < 18 THEN 1 END) AS num_bambini,
+               SUM(:NEW.costo_fatturato) AS tot_euro_fatturato
+           FROM prenotazione
+           JOIN cliente ON prenotazione.id_cliente = cliente.id_cliente
+           WHERE prenotazione.id_volo = :NEW.id_volo
+           GROUP BY :NEW.id_prenotazione, :NEW.id_volo) new_data
+    ON (s.id_prenotazione = new_data.id_prenotazione)
+    WHEN MATCHED THEN
+        UPDATE SET
+            s.num_prenotazioni = new_data.num_prenotazioni,
+            s.eta_media_passeggieri = new_data.eta_media_passeggieri,
+            s.num_adulti = new_data.num_adulti,
+            s.num_bambini = new_data.num_bambini,
+            s.tot_euro_fatturato = new_data.tot_euro_fatturato
+    WHEN NOT MATCHED THEN
+        INSERT (id_prenotazione, id_volo, num_prenotazioni, eta_media_passeggieri, num_adulti, num_bambini, tot_euro_fatturato)
+        VALUES (new_data.id_prenotazione, new_data.id_volo, new_data.num_prenotazioni, new_data.eta_media_passeggieri, new_data.num_adulti, new_data.num_bambini, new_data.tot_euro_fatturato);
+
+END AggiornaStatisticheTrigger;
+
+create or replace TRIGGER CambioStatoAereoTrigger
+BEFORE UPDATE ON aereo
+FOR EACH ROW
+DECLARE
+    v_nuovo_aereo_funzionante INT;
+BEGIN
+    IF :OLD.stato = 1 AND :NEW.stato = 0 THEN
+       SELECT id_aereo
+        INTO v_nuovo_aereo_funzionante
+        FROM aereo
+        WHERE stato = 1
+            AND id_aereo <> :OLD.id_aereo;
+
+        UPDATE volo
+        SET id_aereo = v_nuovo_aereo_funzionante
+        WHERE id_aereo = :OLD.id_aereo;
+        
+    END IF;
+END CambioStatoAereoTrigger;
+
+create or replace TRIGGER VOLOINAUGURALETrigger
+BEFORE INSERT ON volo
+FOR EACH ROW
+DECLARE
+    v_primo_volo INT;
+BEGIN
+    -- Verifica se l'aereo ha già voli associati
+    SELECT COUNT(*)
+    INTO v_primo_volo
+    FROM volo
+    WHERE id_aereo = :NEW.id_aereo;
+
+    -- Se è il primo volo, aggiorna il campo note di AEREO
+    IF v_primo_volo = 0 THEN
+        UPDATE aereo
+        SET note = 'Volo inaugurale in data ' || TO_CHAR((select data_viaggio from prenotazione where id_aereo = :NEW.id_aereo),  'YYYY-MM-DD')
+        WHERE id_aereo = :NEW.id_aereo;
+    END IF;
+END AggiornaNoteAereoTrigger;
