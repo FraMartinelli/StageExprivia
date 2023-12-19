@@ -6,7 +6,7 @@ CREATE TABLE compagniaaerea (
 CREATE TABLE aereoporto (
     id_aereoporto INT PRIMARY KEY NOT NULL,
     nome_aereoporto VARCHAR(50) not null,
-    città VARCHAR(50) NOT NULL,
+    citta VARCHAR(50) NOT NULL,
     piste VARCHAR (5) NOT NULL,
     stato_città VARCHAR (50) NOT NULL
 );
@@ -15,7 +15,7 @@ CREATE TABLE cliente (
     nome VARCHAR(50) NOT NULL,
     indirizzo VARCHAR(50) NOT NULL,
     numerotelefono INT,
-    età INT NOT NULL
+    eta INT NOT NULL
 );
 CREATE TABLE aereo (
     id_aereo INT PRIMARY KEY NOT NULL,

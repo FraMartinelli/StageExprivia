@@ -1,0 +1,395 @@
+INSERT ALL
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (1, 1, 'Boeing 737', 1, 150, 200.0, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (2, 2, 'Airbus A320', 1, 180, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (3, 3, 'Boeing 777', 1, 300, NULL, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (4, 4, 'Embraer E190', 0, NULL, 350.0, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (5, 5, 'Airbus A330', 1, 250, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (6, 6, 'Boeing 747', 1, 400, NULL, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (7, 7, 'Airbus A380', 1, 500, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (8, 8, 'Bombardier Dash 8', 1, 80, NULL, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (9, 9, 'Boeing 787', 1, 200, NULL, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (10, 10, 'Airbus A340', 1, NULL, 450.0, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (11, 11, 'Embraer E170', 0, NULL, 670.0, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (12, 12, 'Boeing 757', 1, 180, 250.0, 'In uso')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (13, 13, 'Airbus A310', 1, 220, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (14, 14, 'Boeing 767', 1, 250, 400.0, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (15, 15, 'Airbus A350', 1, 300, 450.0, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (16, 16, 'Bombardier Q400', 0, 230, NULL, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (17, 17, 'Boeing 737 MAX', 1, 170, NULL, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (18, 18, 'Airbus A220', 1, 150, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (19, 19, 'Embraer E195', 0, NULL, 660.0, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (20, 20, 'Boeing 777X', 1, 350, 550.0, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (21, 1, 'Airbus A321', 1, 200, NULL, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (22, 2, 'Boeing 737 MAX', 1, 170, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (23, 3, 'Embraer E175', 1, 90, NULL, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (24, 4, 'Airbus A300', 0, NULL, 1200.0, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (25, 5, 'Boeing 747-8', 1, NULL, 600.0, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (26, 6, 'Airbus A318', 1, 100, NULL, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (27, 7, 'Boeing 757-200', 1, 200, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (28, 8, 'Bombardier CRJ900', 1, 90, NULL, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (29, 9, 'Airbus A380plus', 1, 550, 800.0, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (30, 10, 'Boeing 767-300', 1, 250, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (31, 11, 'Embraer E145', 0, NULL, 340.0, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (32, 12, 'Airbus A330neo', 1, 300, NULL, 'In uso')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (33, 13, 'Boeing 787-9', 1, 280, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (34, 14, 'Airbus A319', 1, 150, NULL, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (35, 15, 'Boeing 777-200LR', 1, 350, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (36, 16, 'Bombardier CRJ700', 1, 75, 100.0, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (37, 17, 'Airbus A321neo', 1, 200, NULL, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (38, 18, 'Boeing 737-800', 1, 180, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (39, 19, 'Embraer E190-E2', 1, 110, NULL, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (40, 20, 'Airbus A330-800neo', 0, NULL, 670.0, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (41, 1, 'Boeing 747-400', 1, NULL, 550.0, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (42, 2, 'Airbus A310', 1, 240, NULL, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (43, 3, 'Embraer E195-E2', 1, 120, NULL, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (44, 4, 'Boeing 777-300ER', 1, 350, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (45, 5, 'Airbus A340-600', 1, 380, 550.0, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (46, 6, 'Bombardier CRJ1000', 0, 140, NULL, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (47, 7, 'Boeing 737-700', 0, 140, NULL, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (48, 8, 'Airbus A330-200', 1, 290, NULL, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (49, 9, 'Embraer E135', 1, 50, 80.0, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (50, 10, 'Boeing 757-300', 1, 220, 300.0, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (51, 11, 'Airbus A321XLR', 1, NULL, 350.0, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (52, 12, 'Boeing 767-400ER', 1, NULL, 400.0, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (53, 13, 'Embraer E170-E2', 1, 110, NULL, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (54, 14, 'Airbus A380neo', 1, 550, 800.0, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (55, 15, 'Boeing 787-10', 0, NULL, 1400.0, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (56, 16, 'Bombardier CS300', 1, 130, 180.0, 'Operativo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (57, 17, 'Airbus A330-300', 1, 290, NULL, 'Attivo')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (58, 18, 'Boeing 737-900ER', 1, 220, 300.0, 'In servizio')
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (59, 19, 'Embraer E140', 0, NULL, 980.0, NULL)
+   INTO aereo (id_aereo, id_compagnia, modello, stato, posti_totali, capienza_merci, note) VALUES (60, 20, 'Airbus A350-1000', 1, 400, NULL, 'Attivo')
+SELECT * FROM DUAL;
+
+-- Italy
+INSERT INTO aereoporto VALUES (1, 'Leonardo da Vinci-Fiumicino Airport', 'Rome', '4', 'Italy');
+INSERT INTO aereoporto VALUES (2, 'Malpensa Airport', 'Milan', '2', 'Italy');
+INSERT INTO aereoporto VALUES (3, 'Marco Polo Airport', 'Venice', '3', 'Italy');
+
+-- United States
+INSERT INTO aereoporto VALUES (4, 'Hartsfield-Jackson Atlanta International Airport', 'Atlanta', '5', 'United States');
+INSERT INTO aereoporto VALUES (5, 'Los Angeles International Airport', 'Los Angeles', '4', 'United States');
+INSERT INTO aereoporto VALUES (6, 'John F. Kennedy International Airport', 'New York', '6', 'United States');
+
+-- Japan
+INSERT INTO aereoporto VALUES (7, 'Narita International Airport', 'Tokyo', '3', 'Japan');
+INSERT INTO aereoporto VALUES (8, 'Kansai International Airport', 'Osaka', '2', 'Japan');
+INSERT INTO aereoporto VALUES (9, 'Chubu Centrair International Airport', 'Nagoya', '2', 'Japan');
+-- United Kingdom
+INSERT INTO aereoporto VALUES (10, 'Heathrow Airport', 'London', '2', 'United Kingdom');
+INSERT INTO aereoporto VALUES (11, 'Gatwick Airport', 'London', '2', 'United Kingdom');
+INSERT INTO aereoporto VALUES (12, 'Manchester Airport', 'Manchester', '3', 'United Kingdom');
+
+-- France
+INSERT INTO aereoporto VALUES (13, 'Charles de Gaulle Airport', 'Paris', '4', 'France');
+INSERT INTO aereoporto VALUES (14, 'Orly Airport', 'Paris', '3', 'France');
+INSERT INTO aereoporto VALUES (15, 'Nice Cate Azur Airport', 'Nice', '2', 'France');
+
+-- Germany
+INSERT INTO aereoporto VALUES (16, 'Frankfurt Airport', 'Frankfurt', '4', 'Germany');
+INSERT INTO aereoporto VALUES (17, 'Munich Airport', 'Munich', '3', 'Germany');
+INSERT INTO aereoporto VALUES (18, 'Berlin Brandenburg Airport', 'Berlin', '2', 'Germany');
+
+-- China
+INSERT INTO aereoporto VALUES (19, 'Beijing Capital International Airport', 'Beijing', '3', 'China');
+INSERT INTO aereoporto VALUES (20, 'Shanghai Pudong International Airport', 'Shanghai', '4', 'China');
+INSERT INTO aereoporto VALUES (21, 'Guangzhou Baiyun International Airport', 'Guangzhou', '3', 'China');
+-- Spain
+INSERT INTO aereoporto VALUES (22, 'Adolfo Suarez Madrid-Barajas Airport', 'Madrid', '4', 'Spain');
+INSERT INTO aereoporto VALUES (23, 'Barcelona-El Prat Airport', 'Barcelona', '3', 'Spain');
+INSERT INTO aereoporto VALUES (24, 'Palma de Mallorca Airport', 'Palma', '2', 'Spain');
+
+-- Canada
+INSERT INTO aereoporto VALUES (25, 'Toronto Pearson International Airport', 'Toronto', '5', 'Canada');
+INSERT INTO aereoporto VALUES (26, 'Vancouver International Airport', 'Vancouver', '4', 'Canada');
+INSERT INTO aereoporto VALUES (27, 'Montreal-Pierre Elliott Trudeau International Airport', 'Montreal', '3', 'Canada');
+
+-- Australia
+INSERT INTO aereoporto VALUES (28, 'Sydney Kingsford Smith Airport', 'Sydney', '3', 'Australia');
+INSERT INTO aereoporto VALUES (29, 'Melbourne Airport', 'Melbourne', '2', 'Australia');
+INSERT INTO aereoporto VALUES (30, 'Brisbane Airport', 'Brisbane', '2', 'Australia');
+
+-- India
+INSERT INTO aereoporto VALUES (31, 'Indira Gandhi International Airport', 'Delhi', '3', 'India');
+INSERT INTO aereoporto VALUES (32, 'Chhatrapati Shivaji Maharaj International Airport', 'Mumbai', '2', 'India');
+INSERT INTO aereoporto VALUES (33, 'Kempegowda International Airport', 'Bangalore', '2', 'India');
+
+-- Brazil
+INSERT INTO aereoporto VALUES (34, 'Guarulhos Governador Andr FrancoMontoro Airport', 'Sao Paulo', '2', 'Brazil');
+INSERT INTO aereoporto VALUES (35, 'Gale o International Airport', 'Rio de Janeiro', '3', 'Brazil');
+INSERT INTO aereoporto VALUES (36, 'Bras lia International Airport', 'Bras lia', '2', 'Brazil');
+--Bulgaria
+INSERT INTO aereoporto (id_aereoporto, nome_aereoporto, citta, piste, stato_citta) VALUES (37, 'Sofia Airport', 'Sofia', '5', 'Bulgaria');
+INSERT INTO aereoporto VALUES (38, 'Varna Airport', 'Varna', NULL, 'Bulgaria'); 
+INSERT INTO aereoporto VALUES (39, 'Burgas Airport', 'Burgas', '3', 'Bulgaria'); 
+
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA001', 1, 2, 3, 1, 100, 50, 250.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA002', 4, 5, NULL, 2, 150, 30, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA003', 7, 8, 9, 6, 80, 320, 200.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA004', 10, 11, 12, 11, NULL, NULL, 280.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA005', 1, 2, 3, 1, 95, 55, 270.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA006', 4, 5, NULL, 2, 145, 35, 310.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA007', 7, 8, 9, 6, 175, 225, 190.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA008', 10, 11, 12, 11, NULL, NULL, 270.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA009', 15, 16, 17, 20, 225, 125, 320.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA010', 18, 19, 20, 19, NULL, NULL, 420.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA011', 1, 2, 3, 1, 100, 50, 250.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA012', 4, 5, NULL, 2, 150, 30, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA013', 7, 8, 9, 6, 180, 220, 200.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA014', 10, 11, 12, 11, NULL, NULL, 280.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA015', 15, 16, 17, 20, 210, 140, 350.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA016', 1, 2, 3, 2, 90, 90, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA017', 4, 5, NULL, 3, 210, 90, 320.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA018', 7, 8, 9, 4, NULL, NULL, 180.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA019', 10, 11, 12, 5, 120, 130, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA020', 15, 16, 17, 3, 140, 160, 280.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA021', 4, 5, NULL, 1, 30, 120, 200.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA022', 7, 8, 9, 2, 100, 80, 240.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA023', 18, 19, 20, 4, NULL, NULL, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA024', 1, 2, 3, 3, 130, 170, 320.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA025', 7, 8, 9, 5, 40, 110, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA026', 15, 16, 17, 2, 150, 30, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA027', 4, 5, NULL, 3, 120, 180, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA028', 7, 8, 9, 5, 140, 160, 280.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA029', 10, 11, 12, 2, 80, 100, 200.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA030', 15, 16, 17, 4, NULL, NULL, 240.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA031', 18, 19, 20, 1, 100, 50, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA032', 2, 3, NULL, 5, 180, 70, 320.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA033', 6, 7, 8, 3, 190, 110, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA034', 9, 10, 11, 2, 150, 30, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA035', 12, 13, 14, 4, NULL, NULL, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA036', 15, 16, 17, 5, 140, 110, 280.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA037', 18, 19, 20, 1, 80, 70, 200.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA038', 2, 3, NULL, 2, 140, 40, 240.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA039', 5, 6, 7, 3, 110, 190, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA040', 8, 9, 10, 4, NULL, NULL, 320.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA041', 11, 12, 13, 5, 90, 160, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA042', 14, 15, 16, 1, 100, 50, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA043', 17, 18, 19, 2, 120, 60, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA044', 20, 1, 2, 3, 140, 160, 280.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA045', 4, 5, NULL, 4, NULL, NULL, 200.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA046', 7, 8, 9, 5, 100, 150, 240.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA047', 10, 11, 12, 1, 100, 50, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA048', 15, 16, 17, 2, 130, 50, 320.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA049', 18, 19, 20, 3, 190, 110, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA050', 1, 2, 3, 4, NULL, NULL, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AZ278', 1, 19, 3, 5, 230, 20, 320.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA051', 4, 14, NULL, 2, 120, 50, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA052', 7, 14, NULL, 5, 200, 50, 240.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA053', 21, 22, 23, 26, 60, 40, 320.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA054', 24, 25, NULL, 27, 120, 80, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA055', 28, 29, 30, 32, 230, 70, 320.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA056', 31, 32, 33, 33, 240, 40, 280.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA057', 34, 35, 36, 35, 250, 50, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA058', 21, 22, 23, 27, 170, 30, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA059', 24, 25, NULL, 28, 30, 60, 240.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA060', 28, 29, 30, 30, 210, 40, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA061', 31, 32, 33, 31, NULL, NULL, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA062', 34, 35, NULL, 34, 130, 20, 320.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA063', 36, 21, 23, 32, 240, 60, 280.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA064', 24, 25, 36, 33, 200, 80, 300.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA065', 28, 29, NULL, 35, 120, 230, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA066', 31, 32, 33, 32, 60, 240, 240.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA067', 34, 35, 36, 34, 110, 40, 260.00);
+INSERT INTO volo (id_volo, id_aeroporto_origine, id_aeroporto_destinazione, id_aeroporto_scalo, id_aereo, posti_prenotati, posti_disponibili, costo_base) VALUES ('AA068', 21, 22, 23, 36, 60, 15, 300.00);
+
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (1, 'Mario Rossi', 'Via Roma 1', 5551234567, 30);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (2, 'Alice Johnson', 'Elm Street 2', 5552345678, 25);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (3, 'Luca Verdi', 'Via Milano 3', 5553456789, 35);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (4, 'Emma Bianchi', 'Oak Avenue 4', 5554567890, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (5, 'Giovanni Smith', 'Via Napoli 5', 5555678901, 40);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (6, 'Luisa Ferrari', 'Elm Street 6', 5556789012, 32);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (7, 'Roberto Smith', 'Via Venezia 7', 5557890123, 38);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (8, 'Giulia Brown', 'Oak Avenue 8', 5558901234, 27);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (9, 'Fabio White', 'Via Firenze 9', 5559012345, 42);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (10, 'Valentina Green', 'Elm Street 10', 5550123456, 33);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (11, 'Marco Russo', 'Via Palermo 11', 5551234500, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (12, 'Francesca Davis', 'Oak Avenue 12', 5559876543, 41);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (13, 'Luigi Johnson', 'Via Bologna 13', 5558765432, 36);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (14, 'Elena Moretti', 'Elm Street 14', 5557654321, 30);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (15, 'Antonio Smith', 'Via Genova 15', 5556543210, 45);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (16, 'Sophia Esposito', 'Oak Avenue 16', 5555432109, 31);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (17, 'Matteo Johnson', 'Via Torino 17', 5554321098, 37);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (18, 'Aurora Ferrari', 'Elm Street 18', 5553210987, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (19, 'Riccardo Bianchi', 'Via Verona 19', 5552109876, 34);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (20, 'Giorgia Brown', 'Oak Avenue 20', 5551098765, 39);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (21, 'Alessio Smith', 'Via Palermo 21', 5551234501, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (22, 'Caterina Davis', 'Oak Avenue 22', 5559876544, 40);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (23, 'Davide Johnson', 'Via Bologna 23', 5558765433, 35);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (24, 'Elisa Moretti', 'Elm Street 24', 5557654322, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (25, 'Emanuele Smith', 'Via Genova 25', 5556543211, 33);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (26, 'Alessia Esposito', 'Oak Avenue 26', 5555432100, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (27, 'Fabrizio Johnson', 'Via Torino 27', 5554321099, 37);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (28, 'Alessandra Ferrari', 'Elm Street 28', 5553210988, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (29, 'Gianluca Bianchi', 'Via Verona 29', 5552109877, 34);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (30, 'Sara Brown', 'Oak Avenue 30', 5551098766, 39);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (31, 'Andrea Smith', 'Via Palermo 31', 5551234502, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (32, 'Martina Davis', 'Oak Avenue 32', 5559876545, 40);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (33, 'Riccardo Johnson', 'Via Bologna 33', 5558765434, 35);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (34, 'Laura Moretti', 'Elm Street 34', 5557654323, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (35, 'Matteo Smith', 'Via Genova 35', 5556543212, 33);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (36, 'Aurora Esposito', 'Oak Avenue 36', 5555432101, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (37, 'Gianmarco Johnson', 'Via Torino 37', 5554321100, 37);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (38, 'Ludovica Ferrari', 'Elm Street 38', 5553210989, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (39, 'Filippo Bianchi', 'Via Verona 39', 5552109878, 34);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (40, 'Anna Brown', 'Oak Avenue 40', 5551098767, 39);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (41, 'Gabriele Smith', 'Via Palermo 41', 5551234503, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (42, 'Chiara Davis', 'Oak Avenue 42', 5559876546, 40);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (43, 'Daniele Johnson', 'Via Bologna 43', 5558765435, 35);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (44, 'Elena Morelli', 'Elm Street 44', 5557654324, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (45, 'Francesco Smith', 'Via Genova 45', 5556543213, 33);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (46, 'Giulia Esposito', 'Oak Avenue 46', 5555432102, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (47, 'Paolo Johnson', 'Via Torino 47', 5554321101, 37);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (48, 'Valeria Ferrari', 'Elm Street 48', 5553210990, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (49, 'Simone Bianchi', 'Via Verona 49', 5552109879, 34);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (50, 'Elena Brown', 'Oak Avenue 50', 5551098768, 39);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (51, 'Luca Smith', 'Via Palermo 51', 5551234504, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (52, 'Francesca Davis', 'Oak Avenue 52', 5559876547, 40);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (53, 'Antonio Johnson', 'Via Bologna 53', 5558765436, 35);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (54, 'Alessia Morelli', 'Elm Street 54', 5557654325, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (55, 'Aurora Esposito', 'Oak Avenue 55', 5555432103, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (56, 'Gianmarco Johnson', 'Via Torino 56', 5554321102, 37);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (57, 'Ludovica Ferrari', 'Elm Street 57', 5553210991, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (58, 'Filippo Bianchi', 'Via Verona 58', 5552109880, 34);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (59, 'Anna Brown', 'Oak Avenue 59', 5551098769, 39);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (60, 'Gabriele Smith', 'Via Palermo 60', 5551234505, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (61, 'Chiara Davis', 'Oak Avenue 61', 5559876548, 40);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (62, 'Daniele Johnson', 'Via Bologna 62', 5558765437, 35);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (63, 'Elena Morelli', 'Elm Street 63', 5557654326, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (64, 'Francesco Smith', 'Via Genova 64', 5556543214, 33);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (65, 'Giulia Esposito', 'Oak Avenue 65', 5555432104, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (66, 'Paolo Johnson', 'Via Torino 66', 5554321103, 37);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (67, 'Valeria Ferrari', 'Elm Street 67', 5553210992, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (68, 'Simone Bianchi', 'Via Verona 68', 5552109881, 34);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (69, 'Elena Brown', 'Oak Avenue 69', 5551098770, 39);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (70, 'Luca Smith', 'Via Palermo 70', 5551234506, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (71, 'Francesca Davis', 'Oak Avenue 71', 5559876549, 40);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (72, 'Antonio Johnson', 'Via Bologna 72', 5558765438, 35);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (73, 'Alessia Morelli', 'Elm Street 73', 5557654327, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (74, 'Davide Smith', 'Via Genova 74', 5556543215, 33);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (75, 'Aurora Esposito', 'Oak Avenue 75', 5555432105, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (76, 'Gianmarco Johnson', 'Via Torino 76', 5554321104, 37);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (77, 'Ludovica Ferrari', 'Elm Street 77', 5553210993, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (78, 'Filippo Bianchi', 'Via Verona 78', 5552109882, 34);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (79, 'Anna Brown', 'Oak Avenue 79', 5551098771, 39);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (80, 'Gabriele Smith', 'Via Palermo 80', 5551234507, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (81, 'Chiara Davis', 'Oak Avenue 81', 5559876550, 40);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (82, 'Daniele Johnson', 'Via Bologna 82', 5558765439, 35);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (83, 'Elena Morelli', 'Elm Street 83', 5557654328, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (84, 'Francesco Smith', 'Via Genova 84', 5556543216, 33);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (85, 'Giulia Esposito', 'Oak Avenue 85', 5555432106, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (86, 'Paolo Johnson', 'Via Torino 86', 5554321105, 37);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (87, 'Valeria Ferrari', 'Elm Street 87', 5553210994, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (88, 'Simone Bianchi', 'Via Verona 88', 5552109883, 34);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (89, 'Elena Brown', 'Oak Avenue 89', 5551098772, 39);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (90, 'Luca Smith', 'Via Palermo 90', 5551234508, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (91, 'Francesca Davis', 'Oak Avenue 91', 5559876551, 40);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (92, 'Antonio Johnson', 'Via Bologna 92', 5558765440, 35);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (93, 'Alessia Morelli', 'Elm Street 93', 5557654329, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (94, 'Davide Smith', 'Via Genova 94', 5556543217, 33);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (95, 'Aurora Esposito', 'Oak Avenue 95', 5555432107, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (96, 'Gianmarco Johnson', 'Via Torino 96', 5554321106, 37);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (97, 'Ludovica Ferrari', 'Elm Street 97', 5553210995, 29);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (98, 'Filippo Bianchi', 'Via Verona 98', 5552109884, 34);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (99, 'Anna Brown', 'Oak Avenue 99', 5551098773, 39);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (100, 'Gabriele Smith', 'Via Palermo 100', 5551234509, 28);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (101, 'Giulia Rossi', 'Via Roma 101', 5551112233, 15);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (102, 'Marco Esposito', 'Via Napoli 102', 5552223344, 17);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (103, 'Alessia Moretti', 'Via Milano 103', 5553334455, 16);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (104, 'Luca Bianchi', 'Via Genova 104', 5554445566, 14);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (105, 'Martina Brown', 'Via Venezia 105', 5555556677, 13);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (106, 'Simone Ferrari', 'Via Bologna 106', 5556667788, 16);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (107, 'Giorgia Johnson', 'Via Firenze 107', 5557778899, 15);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (108, 'Andrea Davis', 'Via Verona 108', 5558889900, 17);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (109, 'Sara Morelli', 'Via Palermo 109', 5559990011, 14);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (110, 'Davide Smith', 'Via Torino 110', 5551234510, 16);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (111, 'Francesca Esposito', 'Via Napoli 111', 5552345678, 17);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (112, 'Gianluca Bianchi', 'Via Milano 112', 5553456789, 14);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (113, 'Aurora Brown', 'Via Genova 113', 5554567890, 13);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (114, 'Matteo Ferrari', 'Via Venezia 114', 5555678901, 15);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (115, 'Elena Johnson', 'Via Bologna 115', 5556789012, 16);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (116, 'Fabio Davis', 'Via Firenze 116', 5557890123, 14);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (117, 'Valentina Morelli', 'Via Verona 117', 5558901234, 17);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (118, 'Lorenzo Smith', 'Via Palermo 118', 5559012345, 15);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (119, 'Alice Esposito', 'Via Torino 119', 5550123456, 16);
+INSERT INTO cliente (id_cliente, nome, indirizzo, numerotelefono, eta) VALUES (120, 'Riccardo Bianchi', 'Via Napoli 120', 5551234567, 14);
+
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (1, 'Air Italia', 'Roma');
+
+-- Compagnia 2
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (2, 'Sky Airlines', 'Parigi');
+
+-- Compagnia 3
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (3, 'SunJet', 'Barcellona');
+
+-- Compagnia 4
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (4, 'WingsExpress', 'Londra');
+
+-- Compagnia 5
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (5, 'EagleAir', 'Berlino');
+
+-- Compagnia 6
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (6, 'OceanFlights', 'Atene');
+
+-- Compagnia 7
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (7, 'MountainWings', 'Madrid');
+
+-- Compagnia 8
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (8, 'AeroLink', 'Francoforte');
+
+-- Compagnia 9
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (9, 'PacificSkies', 'Amsterdam');
+
+-- Compagnia 10
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (10, 'JetStream', 'Praga');
+
+-- Compagnia 11
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (11, 'SilverWings', 'Varsavia');
+
+-- Compagnia 12
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (12, 'MediterraneanAir', 'Copenaghen');
+
+-- Compagnia 13
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (13, 'AlpineFlights', 'Stoccolma');
+
+-- Compagnia 14
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (14, 'AzureAirlines', 'Oslo');
+
+-- Compagnia 15
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (15, 'NorthernAir', 'Helsinki');
+
+-- Compagnia 16
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (16, 'BalticWings', 'Riga');
+
+-- Compagnia 17
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (17, 'DanubeFlights', 'Budapest');
+
+-- Compagnia 18
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (18, 'AdriaticAir', 'Zagabria');
+
+-- Compagnia 19
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (19, 'CelticSkies', 'Dublino');
+
+-- Compagnia 20
+INSERT INTO CompagniaAerea (id_compagnia, Nome_compagnia, Sede_compagnia) 
+VALUES (20, 'IberianWings', 'Lisbona');
+  
